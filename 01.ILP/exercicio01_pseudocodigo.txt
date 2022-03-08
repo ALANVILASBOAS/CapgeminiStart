@@ -1,0 +1,17 @@
+Faça um algoritmo que receba dois números e ao final mostre o resultado da
+soma dos dois números lidos;
+
+==============Algoritmo===============
+
+//Entrada de dados:
+Ler numeroUm
+Ler SegundoNumero
+
+
+//processamento:
+soma = numeroUm + numeroDois
+
+//saida:
+Escrever soma
+
+======================================

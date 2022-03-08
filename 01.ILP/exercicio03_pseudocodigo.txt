@@ -1,0 +1,28 @@
+Faça um algoritmo para preparar um macarrão instantâneo. Parta do principio
+que você está na cozinha e deve prepará-lo e servi-lo.
+
+==============Algoritmo===============
+
+//Entrada de dados:
+Ler macInstantaneo
+Ler quantidadeAgua
+Ler recipiente
+
+//processamento:
+colocar quantidadeAgua em um recipiente
+Colocar recipiente no fogão
+Abrir pacote de macInstantaneo
+Colocar o macInstantaneo dentro do recipiente
+Ligar fogao 
+Aguardar 3 minutos
+Desligar fogao
+Colocar macInstantaneo em prato
+
+//saida:
+Se Colocar macInstantaneo em prato = TRUE
+Entao
+     Escreva "Macarrão instataneo pronto"
+Senao
+     Escreva "Falha no preparo"
+
+======================================

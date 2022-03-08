@@ -1,0 +1,49 @@
+Faça um algoritmo para realizar a tarefa de tomar banho;
+
+==============Algoritmo===============
+
+//Entrada de dados:
+ler portaBanheiro
+ler lampada
+Ler roupa
+Ler toalha
+Ler sabao
+ler portaBox
+ler chuveiro
+
+//processamento:
+Abrir portaBanheiro
+entrar no banheiro
+Ligar lampada
+fechar portaBanheiro
+retirar roupa
+
+Se
+    portaBox fechado
+Entao
+    abrir portaBox
+
+entrar no box
+Ligar chuveiro
+    Molhar corpo
+Desligar chuveiro 
+    Passar sabao no corpo
+Ligar chuveiro
+    Retirar sabao do corpo
+Desligar chuveiro
+Abrir portaBox
+Pegar toalha
+Secar corpo com toalha
+Pendurar toalha
+Sair do box
+Fechar portaBox
+Vestir roupa
+Abrir portaBanheiro
+desligar lampada
+sair do banheiro
+fechar portaBanheiro
+
+//saida:
+escreva "Banho tomado"
+
+======================================
