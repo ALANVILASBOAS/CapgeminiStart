@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionais</title>
+
+    <!--JS-->
+    <script>
+        //media
+
+        var media = -1;
+
+        //condicional
+        if (media == 10){
+            alert("Passou com nota máxima!")
+        }else if(media >= 9){
+            alert("Excelente!")
+        }else if(media >=8){
+            alert("Ótimo!")
+        }else if(media >=7){
+            alert("Bom!")
+        }else if(media>=6){
+            alert("Na média")
+
+            //Operador lógico E
+        }else if(media<6&&media>=0){
+            alert("Reprovado...")
+        }else{alert("Valor inválido")}
+
+        //Operador Lógico OU
+        if ((media<0)||(media>10)){alert("Digite uma nota válida.")}
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
