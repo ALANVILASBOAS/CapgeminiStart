@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Base</title>
+
+   
+    <script>
+        //functionn
+        function exibirConteudo(){
+            var campo = document.getElementById("campo");
+
+            //já que é a informação de input, então é usado .value em vez de .innerHTML
+            alert(campo.value);
+
+            //apagar conteudo
+            campo.value = "";
+
+        }
+
+    </script>
+</head>
+<body>
+    
+    <input type="text" id="campo">
+    <button onclick="exibirConteudo()">Clique aqui</button>
+
+</body>
+</html>

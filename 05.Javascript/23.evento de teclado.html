@@ -8,11 +8,17 @@
 
    
     <script>
-            
+        function exibir(){
+            //obter valor do campo texto
+            var campo = document.getElementById("campo").value;
+
+            //exibir o conteúdo digitado no campo:
+            alert(campo);
+        };
 
     </script>
 </head>
 <body>
-    
+    <input type="text" id="campo" onkeyup="exibir()">
 </body>
 </html>

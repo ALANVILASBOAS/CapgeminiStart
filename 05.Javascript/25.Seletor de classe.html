@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor de classe</title>
+
+   
+    <script>
+        function exibirTexto(){
+            //armazenar a tag com a classe texto
+            var campo = document.getElementsByClassName("texto")[2];
+
+            //exibir o conteúdo
+            alert(campo.innerHTML);
+        }
+
+    </script>
+</head>
+<body>
+
+    <button onclick="exibirTexto()">Clique Aqui</button>
+    
+    <h1 class="texto">Proway</h1>
+    <h2 class="texto">Seletor JS</h2>
+    <p class="texto">Curso Proway</p>
+</body>
+</html>
