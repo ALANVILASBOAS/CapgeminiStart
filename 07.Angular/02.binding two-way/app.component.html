@@ -1,0 +1,21 @@
+<h1>{{nome}}</h1>
+
+
+<!--modos de chamar uma image-->
+<img src="{{image}}" alt="">
+<hr>
+<img [src] = "image">
+<hr>
+<img bind-src="image" alt="">
+
+<hr>
+<!--toway / comunicação via dupla-->
+<button (click)="mensagem()">Clique aqui</button>
+
+<input type="text" [(ngModel)]="nome">
+<h1>{{nome}}
+
+    <!--toway / comunicação via dupla-->
+<input type="text" [(ngModel)]="pessoa.nome">
+<input type="text" [(ngModel)]="pessoa.idade">
+<input type="text" [(ngModel)]="pessoa.cidade">
