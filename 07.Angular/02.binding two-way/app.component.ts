@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  //variavel
+  //variável
   nome: string = "Ralf";
   image:string = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/how-to-keep-ducks-call-ducks-1615457181.jpg?resize=640:*";
 
-  //funcao de clique
+  //função de clique
   mensagem(){
 alert("OláMundo");
 
