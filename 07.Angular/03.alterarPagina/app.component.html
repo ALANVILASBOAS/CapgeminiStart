@@ -1,0 +1,12 @@
+<!-- Seleção de Página -->
+<span *ngIf="p1;then pagina1 else pagina2"></span>
+
+<!-- Quebra de Linha -->
+<hr>
+
+<!-- Seletor de Páginas -->
+<button (click)="alterarPagina()">Alterar Página</button>
+
+<!-- Templates -->
+<ng-template #pagina1> Pagina 01</ng-template>
+<ng-template #pagina2> Pagina 02</ng-template>
