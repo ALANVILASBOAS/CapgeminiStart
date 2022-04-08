@@ -3,7 +3,7 @@ public class TipoDado {
 
 	public static void main(String[] args) {
 		
-		// demonstração de alguns tipos de dados
+		// demonstraÃ§Ã£o de alguns tipos de dados
 		int     numero;
 		float   decimalCurto;
 		double  decimalLongo;
